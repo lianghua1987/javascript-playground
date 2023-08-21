@@ -1,0 +1,29 @@
+<html>
+<header>
+    <title>Timer Animation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</header>
+<body>
+<div class="timer">
+    <div class="controls">
+        <input type="text" id="duration" value="30">
+        <div class="btn-group">
+            <button id="start"><i class="fa-solid fa-play"></i></button>
+            <button id="pause"><i class="fa-solid fa-pause"></i></button>
+            <button id="refresh"><i class="fa-solid fa-arrows-rotate"></i></button>
+        </div>
+
+    </div>
+    <svg height="500" width="500">
+        <circle r="240" cx="250" cy="250"
+                fill="transparent"
+                stroke="blue" stroke-width="10"
+                transform="rotate(-90 250 250)"
+        />
+    </svg>
+</div>
+<script src="timer.js"></script>
+<script src="index.js"></script>
+</body>
+</html>

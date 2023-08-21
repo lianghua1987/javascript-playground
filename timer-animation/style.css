@@ -1,0 +1,43 @@
+.timer {
+    position: relative;
+    display: inline-block;
+}
+
+.timer input {
+    border: none;
+    width: 240px;
+    font-size: 80px;
+    text-align: center;
+}
+
+.timer button {
+    border: none;
+    font-size: 36px;
+    cursor: pointer;
+    background: transparent;
+    display: inline-block;
+}
+
+.timer button:focus {
+    outline: none;
+}
+
+.timer input:focus {
+    outline: none;
+}
+
+.timer btn-group {
+    display: inline;
+}
+
+.controls {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
