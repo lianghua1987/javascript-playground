@@ -1,5 +1,5 @@
 # Javascript Playground
-### E-Commerce
+### E-Commerce (Express JS)
 #### Get Started
 To run application: `npm run dev`
 ![ecomm.png](previews%2Fecomm%2Fecomm.png)
@@ -7,6 +7,17 @@ To run application: `npm run dev`
 ![set-cookie.png](previews%2Fecomm%2Fset-cookie.png)
 #### Troubleshoot
 **invalid value in custom validator** - https://github.com/express-validator/express-validator/issues/619
+### Movie Fight (Vanilla JS)
+#### Get Started
+Movie comparison using [OMDb API](https://www.omdbapi.com/)
+To run application:
+* Create env.js under current folder with below format:
+    ```javascript
+    const OMDB_API_KEY = "YOUR_API_KEY";
+    export default OMDB_API_KEY;
+    ```
+* Open application using browser
+![preview.png](previews%2Fmovie-fight%2Fpreview.png)
 
 ### Knowledge Concepts
 #### Notorious `This`
