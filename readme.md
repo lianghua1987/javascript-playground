@@ -18,7 +18,16 @@ To run application:
     ```
 * Open application using browser
 ![preview.png](previews%2Fmovie-fight%2Fpreview.png)
+![test.png](previews%2Fmovie-fight%2Ftest.png)
 
+### Message sharing (Vanilla JS)
+#### Get Started
+Base64 is used to do the "encryption". To run application, open in browser `index.html`  
+To deploy to server, run `npx now`  
+See deployed: https://message-sharing-4abdkmh7z-hualiang987-gmailcom.vercel.app/ (Powered by [https://vercel.com/](https://vercel.com/))
+![home.png](previews%2Fmessage-sharing%2Fhome.png)
+![encrypted.png](previews%2Fmessage-sharing%2Fencrypted.png)
+![decrypted.png](previews%2Fmessage-sharing%2Fdecrypted.png)
 ### Knowledge Concepts
 #### Notorious `This`
 - Did you define the function with an arrow function? - White `console.log(this)` on the first **valid** line about the arrow function. Value of `this` in the arrow function will be equal to that console log
