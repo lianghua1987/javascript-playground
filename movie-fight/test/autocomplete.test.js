@@ -47,7 +47,6 @@ it('After searching, display some results', async () => {
   input.dispatchEvent(new Event('input'));
   await waitFor('.dropdown-item');
   const items = document.querySelectorAll('.dropdown-item');
-  expect(items.length).to.equal(4);
   expect(items.length).to.equal(3);
 });
 

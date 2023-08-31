@@ -28,6 +28,12 @@ See deployed: https://message-sharing-4abdkmh7z-hualiang987-gmailcom.vercel.app/
 ![home.png](previews%2Fmessage-sharing%2Fhome.png)
 ![encrypted.png](previews%2Fmessage-sharing%2Fencrypted.png)
 ![decrypted.png](previews%2Fmessage-sharing%2Fdecrypted.png)
+### Testing framework (NodeJS)
+#### Get Started
+```shell
+npm link
+tme
+```
 ### Knowledge Concepts
 #### Notorious `This`
 - Did you define the function with an arrow function? - White `console.log(this)` on the first **valid** line about the arrow function. Value of `this` in the arrow function will be equal to that console log
