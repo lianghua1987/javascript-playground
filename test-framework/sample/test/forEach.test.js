@@ -1,5 +1,5 @@
-const {forEach} = require('../index');
-const assert = require("assert");
+import assert from 'assert';
+import {forEach} from "../index.js";
 
 let numbers;
 
@@ -15,10 +15,12 @@ it('Should return sum of the array', () => {
   });
 
   assert.strictEqual(sum, 15);
-
 });
 
 
 it('Should have length of 5', () => {
-  assert.strictEqual(5, numbers.length);
-})
+  assert.strictEqual(4, numbers.length);
+});
+
+
+123
